@@ -6,6 +6,13 @@ import './App.css';
 function App() {
   const [input, setInput] = useState('');
   const [messages, setMessage] = useState(["hi", 'ther']);
+  const [username, setUsername] = useState('');
+
+  useEffect(() => {
+    
+    setUsername(prompt['pleasee enter your name'])
+   
+  }, [])
 
   const sendMessage = (event) => {
     event.preventDefault();
