@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src=""></img>
+      <img src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100" alt="logo" />
       <h1>Messanger App</h1>
       <h2>Welcome {username}</h2>
       <form className="app__form">
